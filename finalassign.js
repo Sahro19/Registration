@@ -101,7 +101,7 @@
 
         localStorage.setItem('parents', JSON.stringify(storedData));
         getParentData();
-        //parentForm.reset();
+        parentForm.reset();
     });
 
     function getParentData() {
